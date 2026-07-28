@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SenAnnonces</string>
+
+    <string name="title_publication">Publication</string>
+    <string name="title_authentification">Connexion/Inscription</string>
+
+    <string name="champ_titre">Titre: </string>
+    <string name="champ_prix">Prix: </string>
+    <string name="champ_categorie">Catégorie: </string>
+    <string name="champ_quartier">Quartier: </string>
+    <string name="champ_date">Date: </string>
+    <string name="champ_description">Description: </string>
+    <string name="champ_vendeur">Vendeur: </string>
+
+    <string name="champ_nom">Nom</string>
+    <string name="champ_email">Email</string>
+    <string name="champ_mot_de_passe">Mot de passe</string>
+    <string name="champ_telephone">Téléphone (optionnel)</string>
+
+    <string name="btn_recherche">Recherche</string>
+    <string name="btn_appel">Appeler le vendeur</string>
+    <string name="btn_details">Details</string>
+    <string name="btn_connexion">Connexion</string>
+    <string name="btn_deconnexion">Deconnexion</string>
+    <string name="btn_se_connecter">Se connecter</string>
+    <string name="btn_inscription">Inscription</string>
+    <string name="btn_publier">Publier</string>
+
+    <string name="ph_titre">titre</string>
+    <string name="ph_prix">prix (FCFA)</string>
+    <string name="ph_quartier">quartier</string>
+    <string name="ph_date">date</string>
+    <string name="ph_rechercher">Rechercher...</string>
+    <string name="ph_description">Description...</string>
+
+    <string name="cd_photo_annonce">Photo annonce</string>
+    <string name="cd_publier_annonce">Publier une annonce</string>
+
+    <string name="statut_deconnecte">Déconnecté(e)</string>
+</resources>

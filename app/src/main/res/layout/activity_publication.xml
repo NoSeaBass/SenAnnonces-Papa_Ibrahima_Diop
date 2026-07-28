@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_fond"
+    tools:context=".Publication">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_publication"
+            android:textColor="@color/ardoise_fonce"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/input_pub_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/ph_titre"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <EditText
+            android:id="@+id/input_pub_prix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/ph_prix"
+            android:inputType="number"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <Spinner
+            android:id="@+id/dropdown_pub_categorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/input_pub_quartier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/ph_quartier"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <EditText
+            android:id="@+id/input_pub_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/ph_description"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <Button
+            android:id="@+id/btn_publier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/vert"
+            android:text="@string/btn_publier"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>

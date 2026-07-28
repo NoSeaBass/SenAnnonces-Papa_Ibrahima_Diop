@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_fond"
+    tools:context=".Authentification">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_authentification"
+            android:textColor="@color/ardoise_fonce"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_connexion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/btn_connexion"
+                android:textColor="@color/ardoise_fonce" />
+
+            <RadioButton
+                android:id="@+id/radio_inscription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_inscription"
+                android:textColor="@color/ardoise_fonce" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/input_auth_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/champ_nom"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/input_auth_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/champ_email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <EditText
+            android:id="@+id/input_auth_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/champ_mot_de_passe"
+            android:inputType="textPassword"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire" />
+
+        <EditText
+            android:id="@+id/input_auth_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/champ_telephone"
+            android:inputType="phone"
+            android:textColor="@color/ardoise_fonce"
+            android:textColorHint="@color/texte_secondaire"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/vert"
+            android:text="@string/btn_se_connecter"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
