@@ -64,6 +64,8 @@ Endpoints consommés :
 # Installation
 
 Clonez ce dépôt sur votre machine locale :
+```bash
+git clone https://github.com/NoSeaBass/SenAnnonces-Papa_Ibrahima_Diop.git
 ```
-git clone https://github.com/
-```
+
+Ouvrez le projet avec Android Studio et tester selon vos options disponible.
