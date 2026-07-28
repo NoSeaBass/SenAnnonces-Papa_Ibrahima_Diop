@@ -6,7 +6,7 @@ on y trouve un canapé d'occasion. Ce projet consiste à développer
 SenAnnonces, une application Android qui consomme une API de petites
 annonces localisées à Dakar, avec des prix en FCFA.
 
-# Arborescence du projet
+## Arborescence du projet
 
 ```txt
 app/
@@ -41,7 +41,7 @@ app/
                 └── strings.xml
 ```
 
-# Présentation de l'applications et des fonctionnalités du projet
+## Présentation de l'applications et des fonctionnalités du projet
 
 À l'ouverture de l'application vous vous retrouverez face au menu pincipale où vous pourrez consulter les différents produits vendus à travers le serveur. L'interface de départ contiente aussi une barre de recherche, une liste déroulante ces catégories pour facilité la recherche mais aussi nous y retrouvons une section qui indique si vous êtes connecté ou pas et un bouton `+` pour ajouter un produit si nous somme connecter.
 
@@ -51,7 +51,7 @@ Cliquer sur le profil vous mêne à la page d'authentification qui varie selon v
 
 Clique sur le plus `+` vous enmenera sur un formulaire de publication pour un nouveau produit (si vous êtes connecter). Si vous n'êtes pas connecter cliquer sur le `+` vous renvois à la page d'authentification. Et si par chance l'utilisateur by pass cette redirection, la publication d'un produit verifira aussi si l'uilisateur est connecté
 
-# API Backend
+## API Backend
 
 L'application communique avec l'API REST hébergée sur https://senannonces.89-167-122-158.sslip.io/.
 Endpoints consommés :
@@ -61,7 +61,7 @@ Endpoints consommés :
 - POST /api/auth/register : Inscription d'un nouvel utilisateur.
 - POST /api/annonces : Ajout d'une nouvelle annonce.
 
-# Installation
+## Installation
 
 Clonez ce dépôt sur votre machine locale :
 ```bash
