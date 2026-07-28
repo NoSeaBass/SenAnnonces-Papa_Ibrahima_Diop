@@ -54,12 +54,12 @@ Clique sur le plus `+` vous enmenera sur un formulaire de publication pour un no
 # API Backend
 
 L'application communique avec l'API REST hébergée sur https://senannonces.89-167-122-158.sslip.io/.
-Endpoints consommés
-    - GET /api/categories : Récupération de la liste des catégories.
-    - GET /api/annonces : Récupération des annonces.
-    - POST /api/auth/login : Authentification de l'utilisateur.
-    - POST /api/auth/register : Inscription d'un nouvel utilisateur.
-    - POST /api/annonces : Ajout d'une nouvelle annonce.
+Endpoints consommés :
+- GET /api/categories : Récupération de la liste des catégories.
+- GET /api/annonces : Récupération des annonces.
+- POST /api/auth/login : Authentification de l'utilisateur.
+- POST /api/auth/register : Inscription d'un nouvel utilisateur.
+- POST /api/annonces : Ajout d'une nouvelle annonce.
 
 # Installation
 
